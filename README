@@ -1,0 +1,17 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=321
+
+This plugin lets your search pattern be specific to 
+that buffer. This is especially handy when one 
+works with multiple windows and wants different
+search pattern highlighted in different windows.
+
+Normally  if you do :/abc in one window, all other
+windows will also highlight "abc".
+Now by using this plugin you can do
+:Bs abc    which will highlight "abc" only in that
+window.  Likewise you can have multiple search
+pattern highlighted in different windows.
+
+Side Effects: This plugin will unset hlsearch option
+
+-ncr
